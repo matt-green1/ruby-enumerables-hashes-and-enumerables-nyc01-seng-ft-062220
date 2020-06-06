@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   passengers.select do |key, value|
-    key == :suite_a && value[0] == "a"
+    key == :suite_a && value[0] == "A"
   end
   # add the code snippet here!
 end
