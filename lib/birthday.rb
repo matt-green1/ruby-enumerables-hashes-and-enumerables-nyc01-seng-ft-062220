@@ -5,5 +5,6 @@
 # }
 
 def happy_birthday(birthday_kids)
+  hash.each do |name, age|
   # add your code snippet here!
 end
