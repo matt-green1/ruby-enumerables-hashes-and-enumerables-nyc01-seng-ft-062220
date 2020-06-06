@@ -7,9 +7,10 @@
 # }
 
 def select_winner(passengers)
-  winner = passengers.select do |key, value|
-    key == :suite_a && value[0] == "A"
+  winner = ""
+  passengers.each do |key, value|
+    if key == :suite_a && value.start_with?("A")
   end
-  return winner[key]
+  
   # add the code snippet here!
 end
