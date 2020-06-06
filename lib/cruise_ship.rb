@@ -7,7 +7,7 @@
 # }
 
 def select_winner(passengers)
-  passengers.select do |key, value|
+  passengers.select[key] do |key, value|
     key == :suite_a && value[0] == "A"
   end
   # add the code snippet here!
