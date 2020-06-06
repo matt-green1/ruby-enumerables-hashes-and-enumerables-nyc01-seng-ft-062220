@@ -7,5 +7,8 @@
 # }
 
 def select_winner(passengers)
+  passengers.select do |key, value|
+    key[-1] == "a" && value[0] == "a"
+  end
   # add the code snippet here!
 end
